@@ -44,7 +44,10 @@ class ContactsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let sortAsce = NSSortDescriptor(key: "firstname", ascending: true)
-        let sortAsarray = (contactArray as! NSMutableArray).sortedArray(using: [sortAsce])
+       // let sortAsarray = (contactArray as! NSMutableArray).sortedArray(using: [sortAsce])
+        
+        let sortAsarray = NSMutableArray(array: (contactArray as NSArray).sortedArray(using: [sortAsce]))
+        
         let arrayAToZ  = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
         for charactervalue in arrayAToZ {
             var filteredListarr: NSMutableArray?
@@ -129,7 +132,7 @@ extension ContactsViewController: UITableViewDataSource {
         if searchActive {
             return 0
         } else {
-            return arraySectionTitle.index(of: title)!
+            return arraySectionTitle.firstIndex(of: title)!
         }
     }
 }

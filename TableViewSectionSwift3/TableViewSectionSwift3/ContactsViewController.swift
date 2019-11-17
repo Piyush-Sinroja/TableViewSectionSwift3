@@ -16,20 +16,17 @@ class ContactsViewController: UIViewController {
     
     // Static contact array
     var contactArray : Array = [
-    ["firstname":"Alpesh","lastname":"P","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    ["firstname":"Bhavik","lastname":"S","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    ["firstname":"Piyush","lastname":"S","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    ["firstname":"Ramesh","lastname":"C","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    ["firstname":"Mahipal","lastname":"R","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    ["firstname":"Hemant","lastname":"M","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    ["firstname":"Chirag","lastname":"P","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
-    
+        ["firstname":"Alpesh","lastname":"P","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
+        ["firstname":"Bhavik","lastname":"S","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
+        ["firstname":"Piyush","lastname":"S","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
+        ["firstname":"Ramesh","lastname":"C","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
+        ["firstname":"Mahipal","lastname":"R","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
+        ["firstname":"Hemant","lastname":"M","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
+        ["firstname":"Chirag","lastname":"P","email":"","department":"ios","birthday":"09/03/1990","contact":"0000000000"],
         ["firstname":"Jignesh","lastname":"P","email":"","department":"ios","birthday":"","contact":"123456789"],
-    ["firstname":"Montu","lastname":"P","email":"","department":"android","birthday":"","contact":"0000000000"],
-        
-        ["firstname":"Dipesh","lastname":"G","email":"","department":"php","birthday":"","contact":"0000000000"],
-    
-    ["firstname":"Sahil","lastname":"P","email":"","department":"designer","birthday":"","contact":"0000000000"]
+        ["firstname":"Montu","lastname":"P","email":"","department":"android","birthday":"","contact":"0000000000"],
+        ["firstname":"Pavan","lastname":"Patel","email":"","department":"php","birthday":"","contact":"0000000000"],
+        ["firstname":"Anmol","lastname":"P","email":"","department":"designer","birthday":"","contact":"0000000000"]
     ]
     var dicKeysAndValues : [String:NSMutableArray] = [String:NSMutableArray]()
     var arraySectionTitle : [String] = [String]()

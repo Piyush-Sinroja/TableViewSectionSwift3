@@ -62,25 +62,25 @@
                                 <rect key="frame" x="0.0" y="160" width="375" height="618"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ContactCell" id="Kce-zh-hiq" customClass="ContactTableViewCell" customModule="TableViewSectionSwift3" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ContactCell" rowHeight="50" id="Kce-zh-hiq" customClass="ContactTableViewCell" customModule="TableViewSectionSwift3" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kce-zh-hiq" id="PYY-bF-3Md">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JI-DH-AcT">
-                                                    <rect key="frame" x="15" y="15" width="345" height="15"/>
+                                                    <rect key="frame" x="15" y="5" width="345" height="40"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="4JI-DH-AcT" secondAttribute="bottom" constant="3" id="J2P-n9-Ebf"/>
-                                                <constraint firstItem="4JI-DH-AcT" firstAttribute="top" secondItem="PYY-bF-3Md" secondAttribute="topMargin" constant="4" id="PWo-pJ-Rb2"/>
-                                                <constraint firstItem="4JI-DH-AcT" firstAttribute="trailing" secondItem="PYY-bF-3Md" secondAttribute="trailingMargin" id="T8E-M8-aTD"/>
-                                                <constraint firstItem="4JI-DH-AcT" firstAttribute="leading" secondItem="PYY-bF-3Md" secondAttribute="leadingMargin" id="qm8-Ng-KhF"/>
+                                                <constraint firstItem="4JI-DH-AcT" firstAttribute="leading" secondItem="PYY-bF-3Md" secondAttribute="leading" constant="15" id="2VN-pp-qJ5"/>
+                                                <constraint firstAttribute="bottom" secondItem="4JI-DH-AcT" secondAttribute="bottom" constant="5" id="9T1-Yt-XHL"/>
+                                                <constraint firstItem="4JI-DH-AcT" firstAttribute="top" secondItem="PYY-bF-3Md" secondAttribute="top" constant="5" id="EgG-gc-ypY"/>
+                                                <constraint firstAttribute="trailing" secondItem="4JI-DH-AcT" secondAttribute="trailing" constant="15" id="hzM-go-Zjw"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
